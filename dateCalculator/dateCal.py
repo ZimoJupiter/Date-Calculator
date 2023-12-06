@@ -185,7 +185,7 @@ month2_cb.bind('<<ComboboxSelected>>', update_month2)
 year2_cb.bind('<<ComboboxSelected>>', update_day2)
 
 
-button = tk.Button(frame, text="计算", command=calculate)
+button = tk.Button(frame, text="RUN", command=calculate)
 
 button.grid(row=7, column=0, columnspan=3, padx=10, pady=10)
 

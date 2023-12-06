@@ -1,4 +1,4 @@
-('D:\\Program Files\\dateCal\\build\\dateCal\\PYZ-00.pyz',
+('D:\\Program Files\\dateCalculator\\build\\dateCal\\PYZ-00.pyz',
  [('_compat_pickle',
    'D:\\Program Files\\Python 3.11.5\\Lib\\_compat_pickle.py',
    'PYMODULE'),
