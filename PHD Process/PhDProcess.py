@@ -12,7 +12,7 @@ def calculate_days():
     
     ratio = days_passed / total_days
     
-    result_label1.config(text=f"It has benn {days_passed} days\n")
+    result_label1.config(text=f"It has been {days_passed} days\n")
     result_label2.config(text=f"{days_remaining} days left\n")
     result_label3.config(text=f"{ratio:.2%} of the process has been completed")
     progressbar = '*'*int((50*ratio)) + '-'*int((50*(1-ratio)))
@@ -35,3 +35,5 @@ calculate_button = tk.Button(window, text="RUN", command=calculate_days)
 calculate_button.pack()
 
 window.mainloop()
+
+# pyinstaller --onefile --icon=favicon.ico PhDProcess.py
