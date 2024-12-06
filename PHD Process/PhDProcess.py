@@ -1,3 +1,10 @@
+"""
+@ A small tool for calculating the number of days
+@ author ZimoJupiter
+@ w.zimo@outlook.com
+@ date 16 Dec 2023
+@ license MIT License
+"""
 import tkinter as tk
 from datetime import date
 
